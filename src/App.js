@@ -1,5 +1,11 @@
+import Router from "./shared/Router";
+
 function App() {
-  return <div>가족농원 홈페이지</div>;
+  return (
+    <>
+      <Router />
+    </>
+  );
 }
 
 export default App;

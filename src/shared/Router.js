@@ -6,7 +6,7 @@ import Introduction from "../pages/Introduction";
 import LocationInfo from "../pages/LocationInfo";
 import Main from "../pages/Main";
 import Order from "../pages/Order";
-import Purchase from "../pages/Purchase";
+// import Purchase from "../pages/Purchase";
 
 const Router = () => {
   return (
@@ -17,7 +17,7 @@ const Router = () => {
         <Route path="/intro" element={<Introduction />} />
         <Route path="/order" element={<Order />} />
         <Route path="/location" element={<LocationInfo />} />
-        <Route path="/purchase" element={<Purchase />} />
+        {/* <Route path="/purchase" element={<Purchase />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>

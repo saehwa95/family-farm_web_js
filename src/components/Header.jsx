@@ -14,7 +14,7 @@ const Header = () => {
         <NavLink to={"/intro"}>가족농원 소개</NavLink>
         <NavLink to={"/order"}>주문 방법</NavLink>
         <NavLink to={"/location"}>오시는 길</NavLink>
-        <NavLink to={"/purchase"}>가족농원 스토어팜</NavLink>
+        {/* <NavLink to={"/purchase"}>가족농원 스토어팜</NavLink> */}
       </NavWrapper>
     </HeaderContainer>
   );
@@ -38,7 +38,7 @@ const HeaderContainer = styled.div`
 `;
 
 const NavWrapper = styled.div`
-  margin: 80px 150px 0 0;
+  margin: 80px 100px 0 0;
 `;
 
 const NavLink = styled(Link)`
@@ -50,5 +50,6 @@ const NavLink = styled(Link)`
   cursor: pointer;
   :hover {
     color: #e8dcc6;
+    border-bottom: 2px solid #e8dcc6;
   }
 `;

@@ -1,8 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import MainBody from "../components/Main/MainBody";
 
 const Main = () => {
-  return <Wrapper>가족농원 홈</Wrapper>;
+  return (
+    <Wrapper>
+      <MainBody />
+    </Wrapper>
+  );
 };
 
 export default Main;

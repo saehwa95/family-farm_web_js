@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <NavWrapper>
         <NavLink to={"/"}>가족농원 홈</NavLink>
-        <NavLink to={"/intro"}>가족농원 소개</NavLink>
+        {/* <NavLink to={"/intro"}>가족농원 소개</NavLink> */}
         <NavLink to={"/order"}>주문 방법</NavLink>
         <NavLink to={"/location"}>오시는 길</NavLink>
         {/* <NavLink to={"/purchase"}>가족농원 스토어팜</NavLink> */}

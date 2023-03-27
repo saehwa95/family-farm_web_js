@@ -23,15 +23,16 @@ const MainBody = () => {
 export default MainBody;
 
 const MainBodyContainer = styled.div`
-  padding: 0 30px;
+  height: auto;
+  padding: 30px 30px;
   flex-direction: column;
   text-align: center;
-  height: 675px;
   display: flex;
   justify-content: center;
 `;
 
 const ImgWrapper = styled.div`
+  margin-top: 40px;
   display: flex;
   img {
     height: 300px;
